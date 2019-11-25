@@ -59,6 +59,10 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 TARGET_COPY_OUT_VENDOR := vendor
 
+# Init
+TARGET_INIT_VENDOR_LIB := libinit_vince
+TARGET_RECOVERY_DEVICE_MODULES := libinit_vince
+
 # Kernel
 BOARD_KERNEL_CMDLINE := \
     ignore_loglevel \

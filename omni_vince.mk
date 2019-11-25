@@ -27,6 +27,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.keystore=msm8953 \
     ro.treble.enabled=true
 
+PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
+    ro.bootimage.build.date.utc \
+    ro.build.date.utc
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
 PRODUCT_NAME := omni_vince
