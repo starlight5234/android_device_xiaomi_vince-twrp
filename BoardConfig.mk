@@ -74,6 +74,7 @@ BOARD_KERNEL_CMDLINE := \
     lpm_levels.sleep_disabled=1 \
     androidboot.bootdevice=7824900.sdhci \
     earlycon=msm_hsl_uart,0x78af000 \
+    audit=0 \
     androidboot.selinux=permissive
 
 BOARD_KERNEL_BASE := 0x80000000
